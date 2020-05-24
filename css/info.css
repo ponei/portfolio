@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: rgb(34, 34, 34);
+}
+
+header {
+    padding: 32px; 
+    background: rgb(26, 26, 26);
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+    font-family: 'Roboto Mono', sans-serif;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    transition: color 600ms, text-shadow 600ms;
+}
+
+header div a:hover{
+    color: rgb(231, 231, 231);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.527);
+}
+
+#pessoal {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 30px;
+}
+
+#pessoal img {
+    width: 220px;
+    border-radius: 50%;
+    transition: margin 500ms, box-shadow 500ms, border-radius 500ms;
+}
+
+#pessoal img:hover {
+    margin: -5px;
+    border-radius: 20%;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.308);
+}
+
+#pessoal h1 {
+    margin-top: 15px;
+    color: rgb(221, 221, 221);
+}
+
+#pessoal h2 {
+    color: rgb(182, 182, 182);
+}
+
+#pessoal p {
+    color: rgb(161, 161, 161);
+    max-width: 500px;
+    margin: 5px auto;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes a {
+    margin: 0 12px;
+    font-size: 15px;
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    transition: color 600ms, text-shadow 600ms, border-bottom 400ms;
+}
+
+.redes a:hover {
+    color: rgb(231, 231, 231);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.527);
+    border-bottom: 2px solid rgb(150, 150, 150);
+}
